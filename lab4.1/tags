@@ -1,0 +1,11 @@
+BLOCK_SIZE	E:\lab4.1\lab4\main.cpp	/^const size_t BLOCK_SIZE = 8; \/\/ 64 бита = 8 байт$/;"	variable	line:10
+KEY_SIZE	E:\lab4.1\lab4\main.cpp	/^const size_t KEY_SIZE = 7; \/\/ 56 бит = 7 байт$/;"	variable	line:11
+EXTENDED_KEY_SIZE	E:\lab4.1\lab4\main.cpp	/^const size_t EXTENDED_KEY_SIZE = 32; \/\/ 256 бит = 32 байта$/;"	variable	line:12
+readKey	E:\lab4.1\lab4\main.cpp	/^std::vector<uint8_t> readKey(const std::string &filename) {$/;"	function	line:15	signature:(const std::string &filename)	returns:std :: vector <uint8_t> 
+extendKey	E:\lab4.1\lab4\main.cpp	/^std::vector<uint8_t> extendKey(const std::vector<uint8_t> &key) {$/;"	function	line:29	signature:(const std::vector<uint8_t> &key)	returns:std :: vector <uint8_t> 
+padData	E:\lab4.1\lab4\main.cpp	/^std::vector<uint8_t> padData(const std::vector<uint8_t>& data) {$/;"	function	line:38	signature:(const std::vector<uint8_t>& data)	returns:std :: vector <uint8_t> 
+encryptFile	E:\lab4.1\lab4\main.cpp	/^void encryptFile(const std::string &inputFilename, const std::string &outputFilename, const std::vector<uint8_t> &key) {$/;"	function	line:49	signature:(const std::string &inputFilename, const std::string &outputFilename, const std::vector<uint8_t> &key)	returns:void 
+decryptFile	E:\lab4.1\lab4\main.cpp	/^void decryptFile(const std::string &inputFilename, const std::string &outputFilename, const std::vector<uint8_t> &key) {$/;"	function	line:80	signature:(const std::string &inputFilename, const std::string &outputFilename, const std::vector<uint8_t> &key)	returns:void 
+generateKey	E:\lab4.1\lab4\main.cpp	/^void generateKey(const std::string &filename) {$/;"	function	line:97	signature:(const std::string &filename)	returns:void 
+performTests	E:\lab4.1\lab4\main.cpp	/^void performTests(const std::string &encryptedFilename, const std::vector<uint8_t> &key) {$/;"	function	line:108	signature:(const std::string &encryptedFilename, const std::vector<uint8_t> &key)	returns:void 
+main	E:\lab4.1\lab4\main.cpp	/^int main() {$/;"	function	line:177	signature:()	returns:int 
